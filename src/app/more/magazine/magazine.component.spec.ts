@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { KGComponent } from './kg.component';
+import { MagazineComponent } from './magazine.component';
 
-describe('KGComponent', () => {
-  let component: KGComponent;
-  let fixture: ComponentFixture<KGComponent>;
+describe('MagazineComponent', () => {
+  let component: MagazineComponent;
+  let fixture: ComponentFixture<MagazineComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ KGComponent ]
+      declarations: [ MagazineComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(KGComponent);
+    fixture = TestBed.createComponent(MagazineComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

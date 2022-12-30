@@ -7,6 +7,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MoreRoutes } from './more.routing';
 import { SearchComponent } from './search/search.component';
 import { EvalutionComponent } from './evalution/evalution.component';
+import { NewsComponent } from './news/news.component';
+import { SyllabusComponent } from './syllabus/syllabus.component';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { MagazineComponent } from './magazine/magazine.component';
 
 
 
@@ -14,13 +18,17 @@ import { EvalutionComponent } from './evalution/evalution.component';
   declarations: [
     CampusComponent,
     SearchComponent,
-    EvalutionComponent
+    EvalutionComponent,
+    NewsComponent,
+    SyllabusComponent,
+    MagazineComponent
   ],
   imports: [
     CommonModule,
     SharedModule,
     RouterModule.forChild(MoreRoutes),
     NgbModule,
+    NgxPaginationModule
   ]
 })
 export class MoreModule { }

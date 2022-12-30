@@ -11,6 +11,7 @@ import { PhotoComponent } from './photo/photo.component';
 import { ResultComponent } from './result/result.component';
 import { StudyMaterialComponent } from './study-material/study-material.component';
 import { ProjectComponent } from './project/project.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 
 
@@ -29,6 +30,7 @@ import { ProjectComponent } from './project/project.component';
     SharedModule,
     RouterModule.forChild(ResourceRoutes),
     NgbModule,
+    NgxPaginationModule
   ]
 })
 export class ResourceModule { }
