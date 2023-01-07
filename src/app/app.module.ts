@@ -25,7 +25,6 @@ import { ToastrModule } from 'ngx-toastr';
     HttpClientModule,
     NgxPaginationModule,
     ToastrModule.forRoot(),
-     
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -34,5 +34,5 @@ export class AppComponent {
       localStorage.setItem('InstituteURL', res[0].url);
     })
   }
-  title = 'ces-society';
+  title = 'Charotar English Medium School';
 }
