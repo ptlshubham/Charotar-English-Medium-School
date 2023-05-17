@@ -6,8 +6,8 @@ declare var $: any;
   providedIn: 'root'
 })
 export class ApiService {
-  // public static HOST_URL: string = "http://localhost:9000";
   public static HOST_URL: string = "https://bapsanandmandir.co.in";
+  // public static HOST_URL: string = "http://localhost:9000";
   toasts: any[] = [];
   constructor(
     private http: HttpClient,
@@ -58,6 +58,7 @@ export class ApiService {
   public static uploadInfraImageURL: string = ApiService.HOST_URL + '/admin/UploadInfraImage';
   public static saveInfrastructureDetailsURL: string = ApiService.HOST_URL + '/admin/SaveInfrastructureDetails';
   public static getInfraDetailsByIdURL: string = ApiService.HOST_URL + '/admin/GetInfraDetailsById/';
+  public static getInfraMultiImageByIdURL: string = ApiService.HOST_URL + '/admin/GetInfraMultiImagesById/';
   public static SaveAlumniDetailsURL: string = ApiService.HOST_URL + '/admin/SaveAlumniDetails';
   public static GetAlumniDetailsURL: string = ApiService.HOST_URL + '/admin/GetAlumniDetails';
   public static saveContactUsDetailsURL: string = ApiService.HOST_URL + '/admin/SaveContactUsDetails';
