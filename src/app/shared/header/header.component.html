@@ -149,7 +149,8 @@
                         </li>
                         |
                         <li class="menu-item lm">
-                            <a href="http://www.cesociety.in/#/counselling" target="_blank">Free Psychological Counseling</a>
+                            <a href="http://www.cesociety.in/#/counselling" target="_blank">Free Psychological
+                                Counseling</a>
                         </li>
                     </ul>
 
@@ -162,8 +163,6 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
                 aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation"
                 (click)="isCollapsed = !isCollapsed">
-                <!-- <span class="navbar-toggler-icon"> </span> -->
-                <!-- <img class="navbar-toggler-icon" src="assets/images/shape/icon.png" alt=""> -->
                 <i class="fa fa-bars"></i>
             </button>
 
@@ -209,28 +208,14 @@
                             <li><a class="dropdown-item" (click)="openLinks('syllabus')">Syllabus</a> </li>
                             <li><a class="dropdown-item" href="http://www.olabs.edu.in" target="_blank">Online Labs For
                                     Science Experiments</a> </li>
-                            <!-- <li><a class="dropdown-item" routerLink="/resource/holiday"
-                                    routerLinkActive="active">Holidays List</a> </li> -->
                             <li><a class="dropdown-item" routerLink="/resource/web" routerLinkActive="active">Web
                                     Resources</a> </li>
-                            <!-- <li><a class="dropdown-item" routerLink="/resource/photo" routerLinkActive="active">Class
-                                    Group Photo</a> </li> -->
                             <li><a class="dropdown-item" routerLink="/resource/result"
                                     routerLinkActive="active">Results</a> </li>
                             <li><a class="dropdown-item" routerLink="/resource/project" routerLinkActive="active">NCSC
                                     Science Projects</a> </li>
                             <li><a class="dropdown-item" routerLink="/resource/prayer"
                                     routerLinkActive="active">Mornings Prayers List</a> </li>
-                            <!-- <li><a class="dropdown-item">Cultural Activity List 2021-22</a> </li> -->
-                        </ul>
-
-                    </li>
-
-                    <li class="btn-group">
-                        <a class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Course</a>
-                        <ul class="dropdown-menu">
-
                         </ul>
                     </li>
                     <li class="btn-group">
@@ -254,19 +239,27 @@
 
                             <li><a class="dropdown-item" (click)="openLinks('forms')">Forms</a> </li>
                             <li><a class="dropdown-item" (click)="openLinks('report')">Reports</a> </li>
-                            <li><a class="dropdown-item" routerLink="/more/news"
-                                routerLinkActive="active">News</a> </li>
+                            <li><a class="dropdown-item" routerLink="/more/news" routerLinkActive="active">News</a>
+                            </li>
                             <li><a class="dropdown-item" routerLink="/more/magazine"
                                     routerLinkActive="active">Magazines</a> </li>
-
-                            <!-- <li><a class="dropdown-item" routerLink="/resource/material" routerLinkActive="active">Study
-                                    Materials</a>
-                            </li>
-                            <li><a class="dropdown-item">Examination</a>
-                            </li> -->
                         </ul>
                     </li>
+                    <li class="btn-group">
+                        <a class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Student Corner</a>
+                        <ul class="dropdown-menu">
 
+                            <li><a class="dropdown-item" routerLink="/more/academic-calendar"
+                                    routerLinkActive="active">Academic Calendar</a> </li>
+                            <li><a class="dropdown-item" routerLink="/more/paper" routerLinkActive="active">Old
+                                    Question Papers</a>
+                            </li>
+                            <li><a class="dropdown-item" routerLink="/more/scholarship"
+                                    routerLinkActive="active">Scholarships for
+                                    Students</a> </li>
+                        </ul>
+                    </li>
                 </ul>
 
             </div>
@@ -325,31 +318,14 @@
                                                 <li><a href="http://www.olabs.edu.in" target="_blank">Online Labs For
                                                         Science Experiments</a>
                                                 </li>
-                                                <!-- <li><a routerLink="/resource/holiday" routerLinkActive="active">Holidays
-                                                        List</a> </li> -->
                                                 <li><a routerLink="/resource/web" routerLinkActive="active">Web
                                                         Resources</a> </li>
-                                                <!-- <li><a routerLink="/resource/photo" routerLinkActive="active">Class
-                                                        Group Photo</a> </li> -->
                                                 <li><a routerLink="/resource/result"
                                                         routerLinkActive="active">Results</a> </li>
                                                 <li><a routerLink="/resource/project" routerLinkActive="active">NCSC
                                                         Science Projects</a> </li>
                                                 <li><a routerLink="/resource/prayer" routerLinkActive="active">Mornings
                                                         Prayers List</a> </li>
-                                                <!-- <li class="menu-item-has-children"><a>Cultural Activity List 2021-22</a>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item-has-children current-menu-item">
-                                                            <a href="http://www.cesociety.in/cems/images/news/Culture%20Activity%20KG%202021-22_new.pdf"
-                                                                target="_blank">KG Section</a>
-                                                        </li>
-                                                        <li class="current-menu-item">
-                                                            <a href="http://www.cesociety.in/cems/images/news/Culture%20Activity%20%20Pri-HSC%202021-22_new.pdf"
-                                                                target="_blank">Higher Secondary Section</a>
-                                                        </li>
-
-                                                    </ul>
-                                                </li> -->
                                             </ul>
                                         </li>
                                         <li class="">
@@ -368,38 +344,27 @@
                                             <ul class="sub-menu">
                                                 <li><a (click)="openLinks('forms')">Forms</a> </li>
                                                 <li><a (click)="openLinks('report')">Reports</a></li>
-                                                <li><a routerLink="/more/news"
-                                                    routerLinkActive="active">News</a> </li>
+                                                <li><a routerLink="/more/news" routerLinkActive="active">News</a> </li>
                                                 <li><a routerLink="/more/magazine"
                                                         routerLinkActive="active">Magazines</a> </li>
-                                                <!-- <li><a routerLink="/resource/material" routerLinkActive="active">Study
-                                                        Materials</a>
-                                                </li>
-
                                                 <li class="menu-item-has-children">
-                                                    <a>Examination</a>
+                                                    <a>Student Corner</a>
                                                     <ul class="sub-menu">
-                                                        <li class="menu-item-has-children">
-                                                            <a>Exams Schedules</a>
-                                                            <ul class="sub-menu">
-                                                                <li class="menu-item-has-children current-menu-item">
-                                                                    <a href="http://www.cesociety.in/cems/images/news/Weekly%20TEST%20TIME%20table%202021-22%20Std%201-5.pdf"
-                                                                        target="_blank">Std 1-5</a>
-                                                                </li>
-                                                                <li class="current-menu-item">
-                                                                    <a href="http://www.cesociety.in/cems/images/news/Weekly%20TEST%20TIME%20Table%202021-22%20Std%206-12.pdf"
-                                                                        target="_blank">Std 6-12</a>
-                                                                </li>
-
-                                                            </ul>
+                                                        <li class="menu-item-has-children current-menu-item">
+                                                            <a routerLink="/more/academic-calendar"
+                                                                routerLinkActive="active">Academic Calendar</a>
                                                         </li>
-                                                        <li class="current-menu-item">
-                                                            <a routerLink="/more/evalution"
-                                                                routerLinkActive="active">Evalution Scheme</a>
+                                                        <li class="menu-item-has-children current-menu-item">
+                                                            <a routerLink="/more/paper" routerLinkActive="active">Old
+                                                                Question Papers</a>
                                                         </li>
-
+                                                        <li class="menu-item-has-children current-menu-item">
+                                                            <a routerLink="/more/scholarship"
+                                                                routerLinkActive="active">Scholarships for
+                                                                Students</a>
+                                                        </li>
                                                     </ul>
-                                                </li> -->
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul> <!-- //.nav-menu -->
@@ -467,32 +432,15 @@
                                                             For
                                                             Science Experiments</a>
                                                     </li>
-                                                    <!-- <li><a routerLink="/resource/holiday"
-                                                            routerLinkActive="active">Holidays List</a> </li> -->
                                                     <li><a routerLink="/resource/web" routerLinkActive="active">Web
                                                             Resources</a> </li>
-                                                    <!-- <li><a routerLink="/resource/photo" routerLinkActive="active">Class
-                                                            Group Photo</a> </li> -->
                                                     <li><a routerLink="/resource/result"
                                                             routerLinkActive="active">Results</a> </li>
                                                     <li><a routerLink="/resource/project" routerLinkActive="active">NCSC
                                                             Science Projects</a> </li>
                                                     <li><a routerLink="/resource/prayer"
                                                             routerLinkActive="active">Mornings Prayers List</a> </li>
-                                                    <!-- <li class="menu-item-has-children"><a>Cultural Activity List
-                                                            2021-22</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item-has-children current-menu-item">
-                                                                <a href="http://www.cesociety.in/cems/images/news/Culture%20Activity%20KG%202021-22_new.pdf"
-                                                                    target="_blank">KG Section</a>
-                                                            </li>
-                                                            <li class="current-menu-item">
-                                                                <a href="http://www.cesociety.in/cems/images/news/Culture%20Activity%20%20Pri-HSC%202021-22_new.pdf"
-                                                                    target="_blank">Higher Secondary Section</a>
-                                                            </li>
 
-                                                        </ul>
-                                                    </li> -->
                                                 </ul>
                                             </li>
                                             <li class="">
@@ -511,41 +459,29 @@
                                                 <ul class="sub-menu">
                                                     <li><a (click)="openLinks('forms')">Forms</a> </li>
                                                     <li><a (click)="openLinks('report')">Reports</a> </li>
-                                                    <li><a routerLink="/more/news"
-                                                        routerLinkActive="active">News</a> </li>
+                                                    <li><a routerLink="/more/news" routerLinkActive="active">News</a>
+                                                    </li>
                                                     <li><a routerLink="/more/magazine"
                                                             routerLinkActive="active">Magazines</a> </li>
-
-                                                    <!-- <li><a routerLink="/resource/material"
-                                                            routerLinkActive="active">Study Materials</a>
-                                                    </li>
-
-
                                                     <li class="menu-item-has-children">
-                                                        <a>Examination</a>
+                                                        <a>Student Corner</a>
                                                         <ul class="sub-menu">
-                                                            <li class="menu-item-has-children">
-                                                                <a>Exams Schedules</a>
-                                                                <ul class="sub-menu">
-                                                                    <li
-                                                                        class="menu-item-has-children current-menu-item">
-                                                                        <a href="http://www.cesociety.in/cems/images/news/Weekly%20TEST%20TIME%20table%202021-22%20Std%201-5.pdf"
-                                                                            target="_blank">Std 1-5</a>
-                                                                    </li>
-                                                                    <li class="current-menu-item">
-                                                                        <a href="http://www.cesociety.in/cems/images/news/Weekly%20TEST%20TIME%20Table%202021-22%20Std%206-12.pdf"
-                                                                            target="_blank">Std 6-12</a>
-                                                                    </li>
-
-                                                                </ul>
+                                                            <li class="menu-item-has-children current-menu-item">
+                                                                <a routerLink="/more/academic-calendar"
+                                                                    routerLinkActive="active">Academic Calendar</a>
                                                             </li>
-                                                            <li class="current-menu-item">
-                                                                <a routerLink="/more/evalution"
-                                                                    routerLinkActive="active">Evalution Scheme</a>
+                                                            <li class="menu-item-has-children current-menu-item">
+                                                                <a routerLink="/more/paper"
+                                                                    routerLinkActive="active">Old
+                                                                    Question Papers</a>
                                                             </li>
-
+                                                            <li class="menu-item-has-children current-menu-item">
+                                                                <a routerLink="/more/scholarship"
+                                                                    routerLinkActive="active">Scholarships for
+                                                                    Students</a>
+                                                            </li>
                                                         </ul>
-                                                    </li> -->
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul> <!-- //.nav-menu -->
